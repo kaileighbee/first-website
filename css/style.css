@@ -16,7 +16,7 @@ html, body, * {
 
 /*THIS IS OUR BACKGROUND IMAGE*/
 body {
-	background-image: url(https://images.unsplash.com/photo-1441155472722-d17942a2b76a?fit=crop&fm=jpg&h=675&ixlib=rb-0.3.5&q=80&w=1250);
+	background-image: url(https://images.unsplash.com/photo-1432821596592-e2c18b78144f?fit=crop&fm=jpg&h=700&ixlib=rb-0.3.5&q=80&w=1300);
 	background-size: cover; 
 	background-position: 50% 50%;
 	background-attachment: fixed;
@@ -35,12 +35,19 @@ div.nav {
 	background-color: #272D2D;
 	position: fixed;
 	top: 0;
+	text-align: center;
+}
+
+/*NAVBAR LINK HOVER*/
+a.navbar-link:hover {
+	color: #5C9EAD;
 }
 
 /*UNORDERED NAVBAR LIST*/
 div.nav li {
 	display: inline-block;
 	color: #EDF5FC;
+	padding-right: 30px;
 }
  
 /*SECTION MASTER*/
@@ -56,7 +63,7 @@ div.section {
 
 /*BANNER*/
 div.banner{
-	background-color: rgba(184, 197, 214, .75); /*<---only for transparency*/
+	background-color: rgba(184, 197, 214, .85); /*<---only for transparency*/
 	margin-top: 60px;
 	text-align: center;
 }
