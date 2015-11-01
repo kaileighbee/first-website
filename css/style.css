@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+
+/*COLOR PALETTE*/
+/*my black		#272D2D*/
+/*my grey		#rgba(184, 197, 214, 1)*/
+/*my blue 		#5C9EAD*/
+/*my */
+
+/*RESET*/
+html, body, * {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*THIS IS OUR BACKGROUND IMAGE*/
+body {
+	background-image: url(https://images.unsplash.com/photo-1441155472722-d17942a2b76a?fit=crop&fm=jpg&h=675&ixlib=rb-0.3.5&q=80&w=1250);
+	background-size: cover; 
+	background-position: 50% 50%;
+	background-attachment: fixed;
+}
+
+/*MASTER TEXT STYLES*/
+h1, a { 
+	margin: 25px 0 25px 0;
+}
+
+/*NAVBAR*/
+div.nav {
+	width: 100%;
+	height: 50px; 
+	line-height: 50px;
+	background-color: #272D2D;
+	position: fixed;
+	top: 0;
+}
+
+/*UNORDERED NAVBAR LIST*/
+div.nav li {
+	display: inline-block;
+	color: #EDF5FC;
+}
+ 
+/*SECTION MASTER*/
+div.section { 
+	/*	position: absolute;
+	top: 36%;
+	left: 41%;*/
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 30px;
+}
+
+/*BANNER*/
+div.banner{
+	background-color: rgba(184, 197, 214, .75); /*<---only for transparency*/
+	margin-top: 60px;
+	text-align: center;
+}
+
+/*CONTENT*/
+div.content {
+	background-color: rgba(184, 197, 214, .75);
+}
+
+/*BANNER STYLE*/
+h1 {
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+/*BUTTON*/
+a.button { 
+	display: block;
+	background-color: #5C9EAD;
+	color: #EDF5FC;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	border: 1px solid #EDF5FC;
+}
+
+a.button:hover {
+	background-color: #232325;
+	color: #5C9EAD;
+	border: 1px solid #5C9EAD;
+}
