@@ -40,7 +40,7 @@ div.nav {
 }
 
 /*NAVBAR LINK HOVER*/
-a.navbar-link:hover {
+a.navbar-link li:hover {
 	color: #1E3F41;
 }
 
