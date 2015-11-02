@@ -1,10 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
 
 /*COLOR PALETTE*/
-/*my black		#272D2D*/
+/*my black		#2F2F2F*/
 /*my grey		#rgba(184, 197, 214, 1)*/
 /*my blue 		#5C9EAD*/
-/*my */
+/*my green		#1E3F41*/
+/*my mint 		#D7EBBA*/
 
 /*RESET*/
 html, body, * {
@@ -33,7 +34,7 @@ div.nav {
 	width: 100%;
 	height: 50px; 
 	line-height: 50px;
-	background-color: #272D2D;
+	background-color: #2F2F2F;
 	position: fixed;
 	top: 0;
 	text-align: center;
@@ -41,7 +42,7 @@ div.nav {
 
 /*NAVBAR LINK HOVER*/
 a.navbar-link li:hover {
-	color: #1E3F41;
+	color: #D7EBBA;
 }
 
 /*UNORDERED NAVBAR LIST*/
@@ -94,7 +95,7 @@ a.button {
 }
 
 a.button:hover {
-	background-color: #232325;
-	color: #1E3F41;
-	border: 1px solid #5C9EAD;
+	background-color: #1E3F41;
+	color: #D7EBBA;
+	border: 1px solid #D7EBBA;
 }
